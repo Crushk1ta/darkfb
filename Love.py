@@ -1054,7 +1054,7 @@ def idfrom_teman():
             grab()
         except requests.exceptions.ConnectionError:
             print '\x1b[1;91m[\xe2\x9c\x96] Tidak ada koneksi'
-            keluar()
+            exit()
 
 
 def id_member_grup():
@@ -1169,7 +1169,7 @@ def email():
             grab()
         except requests.exceptions.ConnectionError:
             print '\x1b[1;91m[\xe2\x9c\x96] Tidak ada koneksi'
-            Exit()
+            exit()
 
 
 def emailfrom_friend():
@@ -1229,7 +1229,7 @@ def emailfrom_friend():
             grab()
         except requests.exceptions.ConnectionError:
             print '\x1b[1;91m[\xe2\x9c\x96] Tidak ada koneksi'
-             exit()
+            exit()
 
 
 def nomor_hp():
@@ -1285,7 +1285,7 @@ def nomor_hp():
             grab()
         except requests.exceptions.ConnectionError:
             print '\x1b[1;91m[\xe2\x9c\x96] Tidak ada koneksi'
-            keluar()
+            exit()
 
 
 def hpfrom_teman():
@@ -2121,7 +2121,7 @@ def gaz(toket, enable=True):
             lain()
         else:
             print '\x1b[1;91m[!] Error'
-            Exit()
+            exit()
 
 
 if __name__ == '__main__':
