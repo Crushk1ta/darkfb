@@ -421,7 +421,7 @@ def mini():
                                             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
                                             menu_hack()
                                         else:
-                                            print '\x1b[1;91m[!] Sorry, failed to open password target :'D'
+                                            print '\x1b[1;91m[!] Sorry, failed to open password target'
                                             print '\x1b[1;91m[!] Try another way.'
                                             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
                                             menu_hack()
