@@ -468,7 +468,7 @@ def crack():
 
 def scrak():
     global back
-    global it works
+    global itworks
     global checkpoint
     global failed
     global up
