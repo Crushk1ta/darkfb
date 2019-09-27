@@ -1,4 +1,4 @@
-#Decompiled by MR.K7C8NG/AdikSiCarlo
+#Decompiled by MR.K7C8NG/AdikSiCarlo/WalangTitiSiKimura
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 
@@ -36,7 +36,7 @@ def tik():
 
 back = 0
 threads = []
-it works = []
+itworks = []
 checkpoint = []
 failed = []
 friends = []
