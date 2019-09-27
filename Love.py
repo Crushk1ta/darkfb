@@ -1,4 +1,4 @@
-#Decompiled by MR.K7C8NG/AdikSiCarlo/WalangTitiSiKimura
+#Decompiled by MR.K7C8NG/AdikSiCarlo/MaliitTniKimura
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 
@@ -906,13 +906,13 @@ def grab():
     os.system('clear')
     print logo
     print 40 * '\x1b[1;97m\xe2\x95\x90'
-    print '\x1b[1;37;40m1. Get a friend's ID'
+    print '\x1b[1;37;40m1. Get a friends ID'
     print '\x1b[1;37;40m2. Get friend ID from friend'
     print '\x1b[1;37;40m3. Take a group member ID'
-    print '\x1b[1;37;40m4. Get a friend's email'
+    print '\x1b[1;37;40m4. Get a friends email'
     print '\x1b[1;37;40m5. Retrieve friend emails from friends'
-    print '\x1b[1;37;40m6. Take a friend's cellphone number'
-    print '\x1b[1;37;40m7. Take a friend's cellphone number from a friend'
+    print '\x1b[1;37;40m6. Take a friends cellphone number'
+    print '\x1b[1;37;40m7. Take a friends cellphone number from a friend'
     print '\x1b[1;31;40m0. Back'
     print
     grab_pilih()
@@ -1229,7 +1229,7 @@ def emailfrom_friend():
             grab()
         except requests.exceptions.ConnectionError:
             print '\x1b[1;91m[\xe2\x9c\x96] Tidak ada koneksi'
-            keluar()
+             Exit()
 
 
 def nomor_hp():
@@ -1914,10 +1914,10 @@ def wordlist():
             g = e[2:4]
             h = e[4:]
             print 40 * '\x1b[1;97m\xe2\x95\x90'
-            print '\x1b[1;91m[?] \x1b[1;93mIf it's SKIP single :v'
+            print '\x1b[1;91m[?] \x1b[1;93mIf its SKIP single :v'
             i = raw_input('\x1b[1;91m[+] \x1b[1;92mName Girlfriend \x1b[1;97m: ')
             j = raw_input('\x1b[1;91m[+] \x1b[1;92mName Call Boyfriend \x1b[1;97m: ')
-            k = raw_input('\x1b[1;91m[+] \x1b[1;92mBoyfriend's Birth Date >\x1b[1;96mex: |DDMMYY| \x1b[1;97m: ')
+            k = raw_input('\x1b[1;91m[+] \x1b[1;92mBoyfriends Birth Date >\x1b[1;96mex: |DDMMYY| \x1b[1;97m: ')
             jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mWait a minute \x1b[1;97m...')
             l = k[0:2]
             m = k[2:4]
@@ -2121,7 +2121,7 @@ def gaz(toket, enable=True):
             lain()
         else:
             print '\x1b[1;91m[!] Error'
-            exit()
+            Exit()
 
 
 if __name__ == '__main__':
