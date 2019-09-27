@@ -1848,7 +1848,7 @@ def pilih_lain():
                     check_akun()
                 else:
                     if other == '4':
-                        my group()
+                        mygroup()
                     else:
                         if other == '5':
                             guard()
