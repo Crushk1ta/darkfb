@@ -1229,7 +1229,7 @@ def emailfrom_friend():
             grab()
         except requests.exceptions.ConnectionError:
             print '\x1b[1;91m[\xe2\x9c\x96] Tidak ada koneksi'
-             Exit()
+             exit()
 
 
 def nomor_hp():
