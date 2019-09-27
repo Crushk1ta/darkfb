@@ -2003,7 +2003,7 @@ def check_account():
     lain()
 
 
-def my group():
+def my_group():
     os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
